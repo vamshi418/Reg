@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+<display-name>Archetype Created Web Application</display-name>
+  <welcome-file-List>registration.html</welcome-file-List>
+  <servlet>
+  <servlet-name>Registration</servlet-name>
+  <servlet-class>DTProject.Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Registration</servlet-name>
+  <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+</web-app>
+ 
